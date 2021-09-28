@@ -1,6 +1,7 @@
 import random as rnd
 from soccer import Team, Game
 from collections import namedtuple
+from loadsave import loadTeams,saveTeams
 
 
 class record(namedtuple('record', ['team', 'games', 'points',
@@ -149,22 +150,24 @@ class GameSchedule:
             counter+=1
             print('*'*10)
 
-teams = [Team('Zenit', 'SPB'),
-         Team('CSKA', 'Moscow'),
-         Team('Spartak', 'Moscow'),
-         Team('Lokomotiv', 'Moscow'),
-         Team('Dinamo', 'Moscow'),
-         Team('Khimki', 'Khimki'),
-         Team('Krasnodar', 'Krasnodar'),
-         Team('Sochi', 'Sochi'),
-         Team('Rubin', 'Kazan'),
-         Team('Akhmat', 'Groznyy'),
-         Team('Nizhniy Novgorod', 'Nizhniy Novgorod'),
-         Team('Krylya Sovetov', 'Samara'),
-         Team('Arsenal', 'Tula'),
-         Team('Ufa', 'Ufa'),
-         Team('Rostov', 'Rostov'),
-         Team('Ural', 'Ekaterinburg')]
+teams = [Team('Zenit', 'SPB',95),
+         Team('CSKA', 'Moscow',70),
+         Team('Spartak', 'Moscow',80),
+         Team('Lokomotiv', 'Moscow',85),
+         Team('Dinamo', 'Moscow',82),
+         Team('Khimki', 'Khimki',60),
+         Team('Krasnodar', 'Krasnodar',70),
+         Team('Sochi', 'Sochi',72),
+         Team('Rubin', 'Kazan',65),
+         Team('Akhmat', 'Groznyy',59),
+         Team('Nizhniy Novgorod', 'Nizhniy Novgorod',50),
+         Team('Krylya Sovetov', 'Samara',50),
+         Team('Arsenal', 'Tula',55),
+         Team('Ufa', 'Ufa',57),
+         Team('Rostov', 'Rostov',55),
+         Team('Ural', 'Ekaterinburg',55)]
+
+saveTeams('data\\rfpl.json',teams)
 
 sch=GameSchedule(teams)
 sch.generateRound()
@@ -186,8 +189,12 @@ def pfg(game):
 
 for i in range(30):
     sch.nextTour()
-    
+    print(sch.toursPlayed[-1][1])    
 table=sch.currentTable(pfg)
 
 for line in table:
     print(line)
+    
+   
+#t1=loadTeams("data\\rfpl.json")
+#print(t1)

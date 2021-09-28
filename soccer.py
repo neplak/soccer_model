@@ -21,6 +21,10 @@ class Team:
     def __str__(self):
         return f'{self.name} ({self.location})'
     
+    def asDict(self):
+        res={'name':self.name,'location':self.location,'force':self.force}
+        return res
+    
     
 @dataclass()
 class Game:
@@ -169,8 +173,15 @@ class Game:
 
     def __repr__(self) -> str:
         if self.completed:
-            ret=f'{self.home} - {self.away} \n'
-            ret+=f'{self.score} ({self.score1}) \n'
+            ret = f'{self.home} - {self.away} \n{self.score} ({self.score1}) \n'
+            #ret+=f'{self.score} ({self.score1}) \n'
         else:
-            ret = f'{self.home} - {self.away} not played\n'
+            ret = f'{self.home} - {self.away}\n not played\n'
+        return ret
+    
+    def __str__(self):
+        if self.completed:
+            ret = f'{self.home} - {self.away} \n{self.score[0]}:{self.score[1]} ({self.score1[0]}:{self.score[1]}) \n'
+        else:
+            ret = f'{self.home} - {self.away}\n not played\n'
         return ret
