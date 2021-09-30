@@ -1,0 +1,6914 @@
+[
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 56,
+                    "goal": "home"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 73,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 33,
+                    "goal": "away"
+                },
+                {
+                    "minute": 37,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 26,
+                    "goal": "away"
+                },
+                {
+                    "minute": 38,
+                    "goal": "home"
+                },
+                {
+                    "minute": 40,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "away"
+                },
+                {
+                    "minute": 81,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "home"
+                },
+                {
+                    "minute": 46,
+                    "goal": "away"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "away"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "away"
+                },
+                {
+                    "minute": 23,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 15,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 12,
+                    "goal": "home"
+                },
+                {
+                    "minute": 17,
+                    "goal": "home"
+                },
+                {
+                    "minute": 41,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 32,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 76,
+                    "goal": "home"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 8,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 68,
+                    "goal": "home"
+                },
+                {
+                    "minute": 71,
+                    "goal": "home"
+                },
+                {
+                    "minute": 78,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "away"
+                },
+                {
+                    "minute": 74,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "home"
+                },
+                {
+                    "minute": 29,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 89,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 15,
+                    "goal": "away"
+                },
+                {
+                    "minute": 16,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 76,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 68,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "away"
+                },
+                {
+                    "minute": 6,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 45,
+                    "goal": "home"
+                },
+                {
+                    "minute": 47,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                },
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "away"
+                },
+                {
+                    "minute": 41,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 30,
+                    "goal": "home"
+                },
+                {
+                    "minute": 32,
+                    "goal": "away"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 43,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "home"
+                },
+                {
+                    "minute": 38,
+                    "goal": "home"
+                },
+                {
+                    "minute": 72,
+                    "goal": "home"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 17,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "home"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 34,
+                    "goal": "away"
+                },
+                {
+                    "minute": 47,
+                    "goal": "away"
+                },
+                {
+                    "minute": 65,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 10,
+                    "goal": "away"
+                },
+                {
+                    "minute": 60,
+                    "goal": "home"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 31,
+                    "goal": "home"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "home"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 61,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 41,
+                    "goal": "home"
+                },
+                {
+                    "minute": 60,
+                    "goal": "away"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 33,
+                    "goal": "home"
+                },
+                {
+                    "minute": 59,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "away"
+                },
+                {
+                    "minute": 14,
+                    "goal": "away"
+                },
+                {
+                    "minute": 23,
+                    "goal": "home"
+                },
+                {
+                    "minute": 25,
+                    "goal": "home"
+                },
+                {
+                    "minute": 74,
+                    "goal": "away"
+                },
+                {
+                    "minute": 81,
+                    "goal": "away"
+                },
+                {
+                    "minute": 83,
+                    "goal": "away"
+                },
+                {
+                    "minute": 89,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 15,
+                    "goal": "home"
+                },
+                {
+                    "minute": 68,
+                    "goal": "away"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "home"
+                },
+                {
+                    "minute": 37,
+                    "goal": "home"
+                },
+                {
+                    "minute": 40,
+                    "goal": "away"
+                },
+                {
+                    "minute": 57,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 38,
+                    "goal": "away"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 59,
+                    "goal": "away"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 13,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 71,
+                    "goal": "home"
+                },
+                {
+                    "minute": 78,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 10,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 13,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "away"
+                },
+                {
+                    "minute": 87,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 45,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 15,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 56,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 32,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                },
+                {
+                    "minute": 55,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 14,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "home"
+                },
+                {
+                    "minute": 53,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "away"
+                },
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 33,
+                    "goal": "away"
+                },
+                {
+                    "minute": 45,
+                    "goal": "home"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 70,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 25,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "away"
+                },
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 21,
+                    "goal": "away"
+                },
+                {
+                    "minute": 49,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 23,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 22,
+                    "goal": "away"
+                },
+                {
+                    "minute": 40,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 33,
+                    "goal": "away"
+                },
+                {
+                    "minute": 61,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "home"
+                },
+                {
+                    "minute": 68,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 5,
+                    "goal": "away"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 59,
+                    "goal": "away"
+                },
+                {
+                    "minute": 65,
+                    "goal": "away"
+                },
+                {
+                    "minute": 74,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "home"
+                },
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 54,
+                    "goal": "home"
+                },
+                {
+                    "minute": 79,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 59,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "home"
+                },
+                {
+                    "minute": 48,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "away"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 25,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 32,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "home"
+                },
+                {
+                    "minute": 46,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 44,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 56,
+                    "goal": "home"
+                },
+                {
+                    "minute": 60,
+                    "goal": "away"
+                },
+                {
+                    "minute": 61,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 18,
+                    "goal": "away"
+                },
+                {
+                    "minute": 19,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 18,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                },
+                {
+                    "minute": 43,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 6,
+                    "goal": "away"
+                },
+                {
+                    "minute": 30,
+                    "goal": "home"
+                },
+                {
+                    "minute": 43,
+                    "goal": "away"
+                },
+                {
+                    "minute": 66,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 82,
+                    "goal": "away"
+                },
+                {
+                    "minute": 89,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 72,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 83,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 10,
+                    "goal": "home"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 56,
+                    "goal": "away"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                },
+                {
+                    "minute": 63,
+                    "goal": "away"
+                },
+                {
+                    "minute": 65,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                },
+                {
+                    "minute": 12,
+                    "goal": "home"
+                },
+                {
+                    "minute": 17,
+                    "goal": "home"
+                },
+                {
+                    "minute": 26,
+                    "goal": "away"
+                },
+                {
+                    "minute": 47,
+                    "goal": "home"
+                },
+                {
+                    "minute": 53,
+                    "goal": "home"
+                },
+                {
+                    "minute": 68,
+                    "goal": "away"
+                },
+                {
+                    "minute": 69,
+                    "goal": "away"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 20,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "home"
+                },
+                {
+                    "minute": 32,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "home"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 47,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "away"
+                },
+                {
+                    "minute": 70,
+                    "goal": "away"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 49,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 34,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "home"
+                },
+                {
+                    "minute": 30,
+                    "goal": "away"
+                },
+                {
+                    "minute": 41,
+                    "goal": "away"
+                },
+                {
+                    "minute": 55,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                },
+                {
+                    "minute": 66,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 69,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 13,
+                    "goal": "away"
+                },
+                {
+                    "minute": 49,
+                    "goal": "away"
+                },
+                {
+                    "minute": 56,
+                    "goal": "home"
+                },
+                {
+                    "minute": 65,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 73,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 28,
+                    "goal": "home"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                },
+                {
+                    "minute": 67,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "away"
+                },
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 59,
+                    "goal": "home"
+                },
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "home"
+                },
+                {
+                    "minute": 20,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "away"
+                },
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 20,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "home"
+                },
+                {
+                    "minute": 62,
+                    "goal": "away"
+                },
+                {
+                    "minute": 72,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "away"
+                },
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "home"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 12,
+                    "goal": "home"
+                },
+                {
+                    "minute": 33,
+                    "goal": "home"
+                },
+                {
+                    "minute": 46,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "away"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                },
+                {
+                    "minute": 50,
+                    "goal": "home"
+                },
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 72,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 29,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 33,
+                    "goal": "home"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 17,
+                    "goal": "away"
+                },
+                {
+                    "minute": 26,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "away"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 34,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "away"
+                },
+                {
+                    "minute": 38,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 38,
+                    "goal": "home"
+                },
+                {
+                    "minute": 81,
+                    "goal": "away"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 49,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "home"
+                },
+                {
+                    "minute": 81,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 13,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "away"
+                },
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 17,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 67,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 76,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "home"
+                },
+                {
+                    "minute": 10,
+                    "goal": "away"
+                },
+                {
+                    "minute": 24,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "away"
+                },
+                {
+                    "minute": 13,
+                    "goal": "away"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 55,
+                    "goal": "away"
+                },
+                {
+                    "minute": 58,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "away"
+                },
+                {
+                    "minute": 86,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 15,
+                    "goal": "away"
+                },
+                {
+                    "minute": 44,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 85,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 88,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 24,
+                    "goal": "away"
+                },
+                {
+                    "minute": 45,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 41,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "away"
+                },
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 58,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "home"
+                },
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 84,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 23,
+                    "goal": "away"
+                },
+                {
+                    "minute": 41,
+                    "goal": "home"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 56,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 63,
+                    "goal": "away"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "away"
+                },
+                {
+                    "minute": 27,
+                    "goal": "away"
+                },
+                {
+                    "minute": 33,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "home"
+                },
+                {
+                    "minute": 28,
+                    "goal": "away"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 22,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 44,
+                    "goal": "home"
+                },
+                {
+                    "minute": 71,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "away"
+                },
+                {
+                    "minute": 62,
+                    "goal": "away"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                },
+                {
+                    "minute": 72,
+                    "goal": "away"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                },
+                {
+                    "minute": 54,
+                    "goal": "home"
+                },
+                {
+                    "minute": 56,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "away"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 14,
+                    "goal": "away"
+                },
+                {
+                    "minute": 22,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "away"
+                },
+                {
+                    "minute": 58,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 48,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "away"
+                },
+                {
+                    "minute": 49,
+                    "goal": "home"
+                },
+                {
+                    "minute": 56,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 77,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 15,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "home"
+                },
+                {
+                    "minute": 35,
+                    "goal": "home"
+                },
+                {
+                    "minute": 49,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                },
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "home"
+                },
+                {
+                    "minute": 58,
+                    "goal": "away"
+                },
+                {
+                    "minute": 72,
+                    "goal": "home"
+                },
+                {
+                    "minute": 88,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "home"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 41,
+                    "goal": "away"
+                },
+                {
+                    "minute": 49,
+                    "goal": "away"
+                },
+                {
+                    "minute": 76,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "away"
+                },
+                {
+                    "minute": 43,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "home"
+                },
+                {
+                    "minute": 61,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 72,
+                    "goal": "away"
+                },
+                {
+                    "minute": 82,
+                    "goal": "away"
+                },
+                {
+                    "minute": 87,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 67,
+                    "goal": "home"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 40,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 31,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 38,
+                    "goal": "away"
+                },
+                {
+                    "minute": 39,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                },
+                {
+                    "minute": 68,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                },
+                {
+                    "minute": 71,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 69,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                },
+                {
+                    "minute": 81,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 58,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 29,
+                    "goal": "home"
+                },
+                {
+                    "minute": 67,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 25,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "away"
+                },
+                {
+                    "minute": 76,
+                    "goal": "home"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 24,
+                    "goal": "home"
+                },
+                {
+                    "minute": 28,
+                    "goal": "away"
+                },
+                {
+                    "minute": 29,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 17,
+                    "goal": "away"
+                },
+                {
+                    "minute": 60,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 67,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                },
+                {
+                    "minute": 88,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "home"
+                },
+                {
+                    "minute": 10,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "home"
+                },
+                {
+                    "minute": 55,
+                    "goal": "home"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 22,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "home"
+                },
+                {
+                    "minute": 55,
+                    "goal": "home"
+                },
+                {
+                    "minute": 66,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": []
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 30,
+                    "goal": "home"
+                },
+                {
+                    "minute": 35,
+                    "goal": "home"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 40,
+                    "goal": "away"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 22,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "home"
+                },
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "away"
+                },
+                {
+                    "minute": 67,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 9,
+                    "goal": "away"
+                },
+                {
+                    "minute": 29,
+                    "goal": "away"
+                },
+                {
+                    "minute": 72,
+                    "goal": "away"
+                },
+                {
+                    "minute": 76,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 16,
+                    "goal": "away"
+                },
+                {
+                    "minute": 17,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 52,
+                    "goal": "away"
+                },
+                {
+                    "minute": 75,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 1,
+                    "goal": "home"
+                },
+                {
+                    "minute": 9,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 46,
+                    "goal": "away"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 71,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 22,
+                    "goal": "away"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 51,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 20,
+                    "goal": "away"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 53,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 20,
+                    "goal": "away"
+                },
+                {
+                    "minute": 45,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 85,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 12,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 40,
+                    "goal": "home"
+                },
+                {
+                    "minute": 43,
+                    "goal": "away"
+                },
+                {
+                    "minute": 73,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 28,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                },
+                {
+                    "minute": 72,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 25,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                },
+                {
+                    "minute": 56,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "away"
+                },
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "away"
+                },
+                {
+                    "minute": 9,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                },
+                {
+                    "minute": 53,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 15,
+                    "goal": "home"
+                },
+                {
+                    "minute": 66,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 69,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "home"
+                },
+                {
+                    "minute": 23,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 29,
+                    "goal": "home"
+                },
+                {
+                    "minute": 32,
+                    "goal": "away"
+                },
+                {
+                    "minute": 57,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 22,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 40,
+                    "goal": "home"
+                },
+                {
+                    "minute": 74,
+                    "goal": "home"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 22,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "away"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 88,
+                    "goal": "home"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 42,
+                    "goal": "away"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "away"
+                },
+                {
+                    "minute": 29,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 54,
+                    "goal": "away"
+                },
+                {
+                    "minute": 71,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "away"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 74,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 11,
+                    "goal": "home"
+                },
+                {
+                    "minute": 61,
+                    "goal": "home"
+                },
+                {
+                    "minute": 79,
+                    "goal": "away"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 13,
+                    "goal": "home"
+                },
+                {
+                    "minute": 45,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 58,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "away"
+                },
+                {
+                    "minute": 76,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": []
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 45,
+                    "goal": "away"
+                },
+                {
+                    "minute": 51,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 32,
+                    "goal": "away"
+                },
+                {
+                    "minute": 40,
+                    "goal": "away"
+                },
+                {
+                    "minute": 66,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 19,
+                    "goal": "away"
+                },
+                {
+                    "minute": 21,
+                    "goal": "away"
+                },
+                {
+                    "minute": 29,
+                    "goal": "away"
+                },
+                {
+                    "minute": 56,
+                    "goal": "home"
+                },
+                {
+                    "minute": 60,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                },
+                {
+                    "minute": 85,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 58,
+                    "goal": "home"
+                },
+                {
+                    "minute": 81,
+                    "goal": "away"
+                },
+                {
+                    "minute": 82,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 2,
+                    "goal": "away"
+                },
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 13,
+                    "goal": "away"
+                },
+                {
+                    "minute": 15,
+                    "goal": "home"
+                },
+                {
+                    "minute": 18,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 51,
+                    "goal": "home"
+                },
+                {
+                    "minute": 59,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 12,
+                    "goal": "home"
+                },
+                {
+                    "minute": 13,
+                    "goal": "away"
+                },
+                {
+                    "minute": 43,
+                    "goal": "away"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 77,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 49,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 20,
+                    "goal": "away"
+                },
+                {
+                    "minute": 23,
+                    "goal": "away"
+                },
+                {
+                    "minute": 34,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 21,
+                    "goal": "away"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 25,
+                    "goal": "away"
+                },
+                {
+                    "minute": 33,
+                    "goal": "away"
+                },
+                {
+                    "minute": 62,
+                    "goal": "home"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 22,
+                    "goal": "away"
+                },
+                {
+                    "minute": 28,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 33,
+                    "goal": "home"
+                },
+                {
+                    "minute": 40,
+                    "goal": "home"
+                },
+                {
+                    "minute": 49,
+                    "goal": "home"
+                },
+                {
+                    "minute": 50,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 30,
+                    "goal": "away"
+                },
+                {
+                    "minute": 63,
+                    "goal": "home"
+                },
+                {
+                    "minute": 79,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 14,
+                    "goal": "away"
+                },
+                {
+                    "minute": 17,
+                    "goal": "away"
+                },
+                {
+                    "minute": 44,
+                    "goal": "away"
+                },
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 54,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 6,
+                    "goal": "home"
+                },
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 12,
+                    "goal": "away"
+                },
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 54,
+                    "goal": "away"
+                },
+                {
+                    "minute": 64,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 61,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 23,
+                    "goal": "home"
+                },
+                {
+                    "minute": 29,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 5,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 10,
+                    "goal": "away"
+                },
+                {
+                    "minute": 21,
+                    "goal": "home"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 47,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "away"
+                },
+                {
+                    "minute": 36,
+                    "goal": "away"
+                },
+                {
+                    "minute": 43,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 53,
+                    "goal": "away"
+                },
+                {
+                    "minute": 80,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 37,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "away"
+                },
+                {
+                    "minute": 69,
+                    "goal": "home"
+                },
+                {
+                    "minute": 83,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 25,
+                    "goal": "away"
+                },
+                {
+                    "minute": 43,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 28,
+                    "goal": "away"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 58,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 48,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                },
+                {
+                    "minute": 81,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 25,
+                    "goal": "home"
+                },
+                {
+                    "minute": 40,
+                    "goal": "home"
+                },
+                {
+                    "minute": 41,
+                    "goal": "away"
+                },
+                {
+                    "minute": 77,
+                    "goal": "home"
+                },
+                {
+                    "minute": 81,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 18,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "home"
+                },
+                {
+                    "minute": 52,
+                    "goal": "home"
+                },
+                {
+                    "minute": 61,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "away": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 36,
+                    "goal": "home"
+                },
+                {
+                    "minute": 60,
+                    "goal": "away"
+                },
+                {
+                    "minute": 67,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "away": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "away": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 3,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "home"
+                },
+                {
+                    "minute": 56,
+                    "goal": "home"
+                },
+                {
+                    "minute": 68,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "away": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 27,
+                    "goal": "home"
+                },
+                {
+                    "minute": 65,
+                    "goal": "home"
+                },
+                {
+                    "minute": 84,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "away": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 54,
+                    "goal": "away"
+                },
+                {
+                    "minute": 79,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "away": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 31,
+                    "goal": "away"
+                },
+                {
+                    "minute": 42,
+                    "goal": "home"
+                },
+                {
+                    "minute": 87,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "away": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 4,
+                    "goal": "away"
+                },
+                {
+                    "minute": 29,
+                    "goal": "away"
+                },
+                {
+                    "minute": 89,
+                    "goal": "home"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "home": {
+                "name": "Rubin",
+                "location": "Kazan",
+                "force": 65
+            },
+            "away": {
+                "name": "Akhmat",
+                "location": "Groznyy",
+                "force": 59
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 67,
+                    "goal": "home"
+                },
+                {
+                    "minute": 72,
+                    "goal": "home"
+                },
+                {
+                    "minute": 73,
+                    "goal": "away"
+                },
+                {
+                    "minute": 78,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Nizhniy Novgorod",
+                "location": "Nizhniy Novgorod",
+                "force": 50
+            },
+            "away": {
+                "name": "Zenit",
+                "location": "SPB",
+                "force": 95
+            },
+            "completed": true,
+            "goals": []
+        },
+        {
+            "home": {
+                "name": "Krylya Sovetov",
+                "location": "Samara",
+                "force": 50
+            },
+            "away": {
+                "name": "CSKA",
+                "location": "Moscow",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 35,
+                    "goal": "home"
+                },
+                {
+                    "minute": 48,
+                    "goal": "away"
+                },
+                {
+                    "minute": 54,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Arsenal",
+                "location": "Tula",
+                "force": 55
+            },
+            "away": {
+                "name": "Spartak",
+                "location": "Moscow",
+                "force": 80
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 50,
+                    "goal": "home"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                },
+                {
+                    "minute": 77,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ufa",
+                "location": "Ufa",
+                "force": 57
+            },
+            "away": {
+                "name": "Lokomotiv",
+                "location": "Moscow",
+                "force": 85
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 35,
+                    "goal": "home"
+                },
+                {
+                    "minute": 39,
+                    "goal": "away"
+                },
+                {
+                    "minute": 49,
+                    "goal": "away"
+                },
+                {
+                    "minute": 70,
+                    "goal": "home"
+                },
+                {
+                    "minute": 75,
+                    "goal": "home"
+                },
+                {
+                    "minute": 86,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Rostov",
+                "location": "Rostov",
+                "force": 55
+            },
+            "away": {
+                "name": "Dinamo",
+                "location": "Moscow",
+                "force": 82
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 7,
+                    "goal": "home"
+                },
+                {
+                    "minute": 18,
+                    "goal": "home"
+                },
+                {
+                    "minute": 26,
+                    "goal": "home"
+                },
+                {
+                    "minute": 61,
+                    "goal": "away"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Ural",
+                "location": "Ekaterinburg",
+                "force": 55
+            },
+            "away": {
+                "name": "Khimki",
+                "location": "Khimki",
+                "force": 60
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 8,
+                    "goal": "away"
+                },
+                {
+                    "minute": 11,
+                    "goal": "away"
+                },
+                {
+                    "minute": 19,
+                    "goal": "home"
+                },
+                {
+                    "minute": 24,
+                    "goal": "home"
+                }
+            ]
+        },
+        {
+            "home": {
+                "name": "Sochi",
+                "location": "Sochi",
+                "force": 72
+            },
+            "away": {
+                "name": "Krasnodar",
+                "location": "Krasnodar",
+                "force": 70
+            },
+            "completed": true,
+            "goals": [
+                {
+                    "minute": 10,
+                    "goal": "home"
+                },
+                {
+                    "minute": 28,
+                    "goal": "home"
+                },
+                {
+                    "minute": 47,
+                    "goal": "away"
+                }
+            ]
+        }
+    ]
+]

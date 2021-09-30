@@ -25,6 +25,10 @@ class Team:
         res={'name':self.name,'location':self.location,'force':self.force}
         return res
     
+def TeamFromDict(dict):
+    ret=Team(dict['name'],dict['location'],dict['force'])
+    return ret
+    
     
 @dataclass()
 class Game:
@@ -185,3 +189,24 @@ class Game:
         else:
             ret = f'{self.home} - {self.away}\n not played\n'
         return ret
+    
+    def asDict(self):
+        ret={}
+        ret['home']=self.home.asDict()
+        ret['away']=self.away.asDict()
+        ret['completed']=self.completed
+        if self.completed:
+            ret['goals']=[]
+            for goal in self.goals:
+                ret['goals'].append({'minute':goal['minute'],'goal':goal['goal']})
+        return ret
+    
+def GameFromDict(dict):
+    home=TeamFromDict(dict['home'])
+    away=TeamFromDict(dict['away'])
+    ret =Game(home,away,completed=dict['completed'])
+    ret.goals=[]
+    for goal in dict['goals']:
+        ret.goals.append(goal)
+    return ret
+    

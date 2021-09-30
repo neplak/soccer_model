@@ -1,7 +1,7 @@
 import random as rnd
 from soccer import Team, Game
 from collections import namedtuple
-from loadsave import loadTeams,saveTeams
+from loadsave import loadTeams,saveTeams,saveGames,loadGames
 
 
 class record(namedtuple('record', ['team', 'games', 'points',
@@ -172,7 +172,7 @@ saveTeams('data\\rfpl.json',teams)
 sch=GameSchedule(teams)
 sch.generateRound()
 #sch.info()
-
+sch.toursPlayed=loadGames('data\\games.json')
 #sch.nextTour()
 #sch.nextTour()
 #sch.infoPlayed()
@@ -187,10 +187,12 @@ def pfg(game):
         return 1,1
     
 
-for i in range(30):
-    sch.nextTour()
-    print(sch.toursPlayed[-1][1])    
+# for i in range(30):
+#     sch.nextTour()
+#     print(sch.toursPlayed[-1][1])    
 table=sch.currentTable(pfg)
+
+#saveGames('data\\games.json',sch.toursPlayed)
 
 for line in table:
     print(line)
