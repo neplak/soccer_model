@@ -1,0 +1,21 @@
+{% extends "base.jinja2" %}
+{% block content %}
+    <h1>{{heading}}</h1>
+    
+    <h2>version: {{version}}</h2>
+    
+    {% if messages %}
+
+        <p><span class="badge bg-danger text-white">{{messages}}</span></p>
+    {% endif %}
+    
+    <ul>
+    {%if teamlist %}
+        {% for team in teamlist %}
+            <li>{{team.name+' ' +'('+ team.location+' )'}}</li>
+        {% endfor %}
+    {% endif %}
+    </ul>
+
+    {# a comment #}
+{% endblock %}

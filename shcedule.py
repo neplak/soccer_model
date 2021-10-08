@@ -106,7 +106,10 @@ class GameSchedule:
         guests=[i for i in range(self.teams//2,self.teams)]
         round1=[]
         for k in range(self.teams-1):
-            round1.append(list(zip(homes,guests)))
+            if k%2:
+                round1.append(list(zip(homes,guests)))
+            else:
+                round1.append(list(zip(guests, homes)))
             guests.insert(0,homes.pop(1))
             homes.append(guests.pop())
         rnd.shuffle(round1)
@@ -114,7 +117,10 @@ class GameSchedule:
         homes = [i for i in range(self.teams//2, self.teams)]
         round2 = []
         for k in range(self.teams-1):
-            round2.append(list(zip(homes, guests)))
+            if not k%2:
+                round2.append(list(zip(guests, homes)))
+            else:
+                round2.append(list(zip(homes, guests)))
             guests.insert(0, homes.pop(1))
             homes.append(guests.pop())
         rnd.shuffle(round2)
@@ -150,29 +156,29 @@ class GameSchedule:
             counter+=1
             print('*'*10)
 
-teams = [Team('Zenit', 'SPB',95),
-         Team('CSKA', 'Moscow',70),
-         Team('Spartak', 'Moscow',80),
-         Team('Lokomotiv', 'Moscow',85),
-         Team('Dinamo', 'Moscow',82),
-         Team('Khimki', 'Khimki',60),
-         Team('Krasnodar', 'Krasnodar',70),
-         Team('Sochi', 'Sochi',72),
-         Team('Rubin', 'Kazan',65),
-         Team('Akhmat', 'Groznyy',59),
-         Team('Nizhniy Novgorod', 'Nizhniy Novgorod',50),
-         Team('Krylya Sovetov', 'Samara',50),
-         Team('Arsenal', 'Tula',55),
-         Team('Ufa', 'Ufa',57),
-         Team('Rostov', 'Rostov',55),
-         Team('Ural', 'Ekaterinburg',55)]
+# teams = [Team('Zenit', 'SPB',95),
+#          Team('CSKA', 'Moscow',70),
+#          Team('Spartak', 'Moscow',80),
+#          Team('Lokomotiv', 'Moscow',85),
+#          Team('Dinamo', 'Moscow',82),
+#          Team('Khimki', 'Khimki',60),
+#          Team('Krasnodar', 'Krasnodar',70),
+#          Team('Sochi', 'Sochi',72),
+#          Team('Rubin', 'Kazan',65),
+#          Team('Akhmat', 'Groznyy',59),
+#          Team('Nizhniy Novgorod', 'Nizhniy Novgorod',50),
+#          Team('Krylya Sovetov', 'Samara',50),
+#          Team('Arsenal', 'Tula',55),
+#          Team('Ufa', 'Ufa',57),
+#          Team('Rostov', 'Rostov',55),
+#          Team('Ural', 'Ekaterinburg',55)]
 
-saveTeams('data\\rfpl.json',teams)
+#saveTeams('data\\rfpl.json',teams)
 
-sch=GameSchedule(teams)
-sch.generateRound()
+#sch=GameSchedule(teams)
+#sch.generateRound()
 #sch.info()
-sch.toursPlayed=loadGames('data\\games.json')
+#sch.toursPlayed=loadGames('data\\games.json')
 #sch.nextTour()
 #sch.nextTour()
 #sch.infoPlayed()
@@ -190,12 +196,12 @@ def pfg(game):
 # for i in range(30):
 #     sch.nextTour()
 #     print(sch.toursPlayed[-1][1])    
-table=sch.currentTable(pfg)
+#table=sch.currentTable(pfg)
 
 #saveGames('data\\games.json',sch.toursPlayed)
 
-for line in table:
-    print(line)
+#for line in table:
+    #print(line)
     
    
 #t1=loadTeams("data\\rfpl.json")

@@ -1,0 +1,35 @@
+{% extends "base.jinja2" %}
+{% block content %}
+<form action="" method="POST">
+{{ form.csrf_token }} 
+{{ form.name.label(class="form-control-label") }}
+{% if form.name.errors %}
+<ul class="errors">
+    {% for error in form.name.errors %}
+    <li>{{ error }}</li>{% endfor %}
+</ul>
+{% endif %}
+{{ form.name(class="form-control form-control-lg ") }}
+
+{{ form.location.label(class="form-control-label") }}
+{% if form.location.errors %}
+<ul class="errors">
+    {% for error in form.location.errors %}
+    <li>{{ error }}</li>{% endfor %}
+</ul>
+{% endif %}
+{{ form.location(class="form-control form-control-lg ") }}
+
+{{ form.force.label(class="form-control-label") }}
+{% if form.force.errors %}
+<ul class="errors">
+    {% for error in form.name.errors %}
+    <li>{{ error }}</li>{% endfor %}
+</ul>
+{% endif %}
+{{ form.force(class="form-control form-control-lg ") }}
+
+{{ form.submit(class="btn btn-outline-info") }}
+</form>
+    {# a comment #}
+{% endblock %}

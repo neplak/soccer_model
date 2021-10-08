@@ -1,0 +1,30 @@
+{% extends "base.jinja2" %}
+{% block content %}
+
+    {% set counter=0%}
+    <div><a href={{url_for('loadTeamList')}}>Load list</a></div>
+    <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Location</th>
+      <th scope="col">Force</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%if teamlist %}
+        {% for team in teamlist %}
+            <tr>
+                <td><a href="{{url_for('editTeam',teamnumber=(loop.index-1))}}">{{loop.index-1}}</a></td>
+                <td>{{team.name}}</td>
+                <td>{{team.location}}</td>
+                <td>{{team.force}}</td>
+            </tr>
+            {% set counter=counter+1 %}
+        {% endfor %}
+    {% endif %}
+    </tbody>
+    </table>
+    <a href={{url_for('saveTeamList')}}><p>Save</p></a>
+{% endblock %}

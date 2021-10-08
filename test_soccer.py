@@ -1,88 +1,93 @@
-from soccer import *
+from flask import Flask, request, render_template,redirect,url_for
+import jinja2
+from soccer import Game,Team, TeamFromDict
+from forms import TeamForm
+from loadsave import loadTeams,saveTeams
+from shcedule import GameSchedule, pfg
+import json
 
-teams=[Team('Zenit','SPB'),
-       Team('CSKA', 'Moscow'),
-       Team('Spartak', 'Moscow'),
-       Team('Lokomotiv', 'Moscow'),
-       Team('Dinamo', 'Moscow'),
-       Team('Khimki', 'Khimki'),
-       Team('Krasnodar', 'Krasnodar'), 
-       Team('Sochi', 'Sochi'),
-       Team('Rubin', 'Kazan'), 
-       Team('Akhmat', 'Groznyy'), 
-       Team('Nizhniy Novgorod', 'Nizhniy Novgorod'),
-       Team('Krylya Sovetov', 'Samara'), 
-       Team('Arsenal', 'Tula'), 
-       Team('Ufa', 'Ufa'),
-       Team('Rostov', 'Rostov'),
-       Team('Ural', 'Ekaterinburg') ]
+teamList=[]
+schedule=None
 
 
-q = [[i, j] for i in range(0, 16) for j in range(0, 16)]
-allGamesIndex=list(filter(lambda x: x[0]!=x[1],q))
-allGames=[]
+app=Flask(__name__)
+app.config['SECRET_KEY']='my super secret key'
+app.config['UPLOAD_FOLDER']='data'
 
-for index in allGamesIndex:
-    allGames.append(Game(teams[index[0]],teams[index[1]]))
+@app.route("/")
+def index():
+    messages=None
+    try:
+        messages = request.args['messages']
+    except:
+        pass
+    if not messages:
+        messages="No errors were sent"
+    return render_template('index.jinja2',heading='Title',version='1.0.0',teamlist=teamList,messages=messages)
+
+@app.route("/teamlist")
+def displayTeamlist():
+    return render_template('teamlist.jinja2',teamlist=teamList)
+
+@app.route('/team',methods=['GET','POST'])
+def teamCreate():
+    form=TeamForm()
+    if form.validate_on_submit():
+        teamList.append(Team(form.name.data,form.location.data,form.force.data))
+        return redirect(url_for('displayTeamlist'))
+    return render_template('team.jinja2',form=form)
+
+
+@app.route('/editteam/<teamnumber>', methods=['GET', 'POST'])
+def editTeam(teamnumber):
+    try:
+        tn=int(teamnumber)
+    except:
+        return redirect(url_for('index',messages="Team number must be integer"))
     
-for game in allGames:
-    game.play()
-    print(game)
-    
-def getPoint(games):
-    result={}
-    for game in games:
-        winner=game.winner
-        if winner:
-            if str(winner) in result.keys():
-                result[str(winner)]+=3
-            else:
-                result[str(winner)] = 3
-        else:
-            for key in (str(game.home),str(game.away)):
-                if key in result.keys():
-                    result[key]+=1
-                else:
-                    result[key]=1
-    return result
+    if tn>=len(teamList):
+        return redirect(url_for('index', messages="Team number too big"))
+    team=teamList[tn]
+    form=TeamForm(obj=team)
+    if form.validate_on_submit():
+        form.populate_obj(teamList[tn])
+        #teamList[tn]=Team(team.name,team.location,team.force)
+        return redirect(url_for('displayTeamlist'))
+    return render_template('team.jinja2', form=form)
+
+@app.route('/teamlist/load', methods=['GET', 'POST'])
+def loadTeamList():
+    global teamList
+    #tl=loadTeams('data/rfpl.json')
+    teamList = loadTeams('data/rfpl.json')
+    return redirect(url_for('displayTeamlist'))
+
+@app.route('/teamlist/save', methods=['GET', 'POST'])
+def saveTeamList():
+    global teamList
+    #tl=loadTeams('data/rfpl.json')
+    saveTeams('data/rfpl.json',teamList)
+    return redirect(url_for('displayTeamlist'))
+
+@app.route('/schedule', methods=['GET', 'POST'])
+def generateSchedule():
+    global schedule
+    global teamList
+    if len(teamList)<2:
+        return redirect(url_for('index', messages="Not enough teams for generating schedule. Add more teams"))
+    if not schedule:
+        schedule=GameSchedule(teamList)
+        schedule.generateRound()
+    return render_template('schedule.jinja2',schedule=schedule)
 
 
-def getPoint1(games):
-    result = {}
-    for game in games:
-        winner = game.winner
-        if winner:
-            if str(winner) in result.keys():
-                result[str(winner)] += 1
-            else:
-                result[str(winner)] = 1
-        winner=game.winner1
-        if winner:
-            if str(winner) in result.keys():
-                result[str(winner)] += 1
-            else:
-                result[str(winner)] = 1
-                
-        winner=game.winner2        
-        if winner:
-            if str(winner) in result.keys():
-                result[str(winner)] += 1
-            else:
-                result[str(winner)] = 1
-        
-    return result
+@app.route('/results', methods=['GET', 'POST'])
+def gamesResults():
+    global schedule
+    if not schedule:
+        return redirect(url_for('index',messages="Not created schedule yet"))
+    if not schedule.toursPlayed:
+        return redirect(url_for('index', messages="None games played yet"))
 
-res=getPoint(allGames)
-
-res1=getPoint1(allGames)
-
-print("Normal")
-for k in sorted(res,key=res.get,reverse=True):
-    print(k,res[k])
-            
-print('1 point for win in game and any time')
-for k in sorted(res1, key=res1.get, reverse=True):
-    print(k, res1[k])
-
-
-
+if __name__ == "__main__":
+    app.run(debug=True,port=8080)

@@ -1,0 +1,23 @@
+{% extends "base.jinja2" %}
+{% block content %}
+    <ul class="list-group">
+    {%if schedule.matchDays %}
+        {% for matchday in schedule.matchDays %}
+        <li class="list-group-item"> Match day <span class="badge text-white bg-secondary rounded-pill">{{loop.index}}</span></li>
+            <ol class="list-group list-group-numbered">
+            {% for game in matchday %}
+                <li class="list-group-item-info">
+                <span class="badge text-white bg-dark rounded-pill">
+                {{schedule.teamList[game[0]].name}}({{schedule.teamList[game[0]].location}})
+                - 
+                {{schedule.teamList[game[1]].name}}({{schedule.teamList[game[1]].location}})
+                </span>
+                </li>
+            {% endfor %}
+            </ol>
+            
+        {% endfor %}
+    {% endif %}
+    </ul>
+    {# a comment #}
+{% endblock %}
