@@ -81,6 +81,13 @@ def generateSchedule():
     return render_template('schedule.jinja2',schedule=schedule)
 
 
+@app.route('/playTour', methods=['GET', 'POST'])
+def playTour():
+    global schedule
+    schedule.nextTour()
+    return redirect(url_for('gamesResults'))
+    
+
 @app.route('/results', methods=['GET', 'POST'])
 def gamesResults():
     global schedule
@@ -88,6 +95,7 @@ def gamesResults():
         return redirect(url_for('index',messages="Not created schedule yet"))
     if not schedule.toursPlayed:
         return redirect(url_for('index', messages="None games played yet"))
+    return render_template('results2.jinja2',gameschedule=schedule)
 
 if __name__ == "__main__":
     app.run(debug=True,port=8080)

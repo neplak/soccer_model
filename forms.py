@@ -12,6 +12,6 @@ class TeamForm(FlaskForm):
                                 validators.DataRequired(message='Force field is required')])
     submit = SubmitField('Submit')
     
-class ScheduleForm(FlaskForm):
+class ResultsForm(FlaskForm):
     submit = SubmitField('Play')
 

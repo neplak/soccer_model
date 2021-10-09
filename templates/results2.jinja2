@@ -1,0 +1,56 @@
+{% extends "base.jinja2" %}
+{% block content %}
+    
+    
+
+    <div class="row row-cols-auto">
+    {%if gameschedule.toursPlayed %}
+        {% for tour in gameschedule.toursPlayed %}
+            <div class="card col" style="width: 24rem;">
+             <h5 class="card-header">Match day <span class="badge text-white bg-secondary rounded-pill">{{loop.index}}</span></h5>
+             <div class="card-body">
+             
+             
+            <table class="table">
+            {% for game in tour %}
+                <tr class="table-primary">
+                    <td>Teams</td>
+                    <td>
+                    {{game.home.name}} ({{game.home.location}})
+                    </td>
+                    
+                    <td>{{game.away.name}} ({{game.away.location}})</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Score</td>
+                    <td>
+                    {{game.score[0]}}
+                    </td>
+                    <td>
+                    {{game.score[1]}}
+                    </td>
+                    
+                </tr>
+                <tr class="table-info" style="border-bottom: 2px solid black;">
+                    <td>1 half</td>
+                    <td>
+                    {{game.score1[0]}}
+                    </td>
+                    <td>
+                    {{game.score1[1]}}
+                    </td>
+                    
+                </tr>
+                
+                
+            {% endfor %}
+            </table>
+            </div>
+            </div>
+        {% endfor %}
+        
+    {% endif %}
+    </div>
+
+    {# a comment #}
+{% endblock %}
