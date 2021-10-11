@@ -3,7 +3,7 @@ import jinja2
 from soccer import Game,Team, TeamFromDict
 from forms import TeamForm
 from loadsave import loadTeams,saveTeams
-from shcedule import GameSchedule, pfg
+from shcedule import GameSchedule, pfg, pfg111
 import json
 
 teamList=[]
@@ -96,6 +96,16 @@ def gamesResults():
     if not schedule.toursPlayed:
         return redirect(url_for('index', messages="None games played yet"))
     return render_template('results2.jinja2',gameschedule=schedule)
+
+
+@app.route('/table', methods=['GET', 'POST'])
+def tournamentTable():
+    global schedule
+    if not schedule:
+        return redirect(url_for('index', messages="Not created schedule yet"))
+    if not schedule.toursPlayed:
+        return redirect(url_for('index', messages="None games played yet"))
+    return render_template('TournamentTable.jinja2', ttable=schedule.currentTable(pfg111))
 
 if __name__ == "__main__":
     app.run(debug=True,port=8080)

@@ -130,6 +130,8 @@ class GameSchedule:
         
     def nextTour(self):
         tour=self.lastTour
+        if tour>=len(self.matchDays):
+            return
         games=self.matchDays[tour]
         tourResults=[]
         for game in games:
@@ -192,7 +194,25 @@ def pfg(game):
     if score[0]==score[1]:
         return 1,1
     
-
+def pfg111(game):
+    wp=[0,0]
+    score=game.score
+    
+    if score[0] > score[1]:
+        wp[0]+=1
+    if score[0] < score[1]:
+        wp[1]+=1
+    score=game.score1
+    if score[0] > score[1]:
+        wp[0] += 1 
+    if score[0] < score[1]:
+        wp[1] += 1
+    score = game.score2
+    if score[0] > score[1]:
+        wp[0] += 1
+    if score[0] < score[1]:
+        wp[1] += 1
+    return (wp[0],wp[1])
 # for i in range(30):
 #     sch.nextTour()
 #     print(sch.toursPlayed[-1][1])    

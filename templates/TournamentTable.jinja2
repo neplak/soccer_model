@@ -1,0 +1,28 @@
+{% extends "base.jinja2" %}
+{% block content %}
+            <table class="table">
+            <thead>
+                    <tr class="table-info">
+                    <th scope="col"># </th>
+                        {% for fieldname in ttable[0]._fields%}
+                            <th scope="col">{{fieldname}}</th>                
+                        {% endfor %}
+                    </tr>
+            </thead>
+            <tbody>  
+            {% for rec in ttable %}
+                  
+                <tr class="table-primary">
+                    <td>{{loop.index}}</td>
+                    {% for item in rec%} 
+                        <td>{{item}}</td>
+                    {% endfor %}
+                </tr>
+                
+            {% endfor %}
+            </tbody>
+            </table>
+    </div>
+
+    {# a comment #}
+{% endblock %}
