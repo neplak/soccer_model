@@ -95,7 +95,7 @@ def gamesResults():
         return redirect(url_for('index',messages="Not created schedule yet"))
     if not schedule.toursPlayed:
         return redirect(url_for('index', messages="None games played yet"))
-    return render_template('results2.jinja2',gameschedule=schedule)
+    return render_template('results-a.jinja2',gameschedule=schedule)
 
 
 @app.route('/table', methods=['GET', 'POST'])
