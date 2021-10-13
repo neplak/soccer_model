@@ -25,6 +25,14 @@ def index():
         messages="No errors were sent"
     return render_template('index.jinja2',heading='Title',version='1.0.0',teamlist=teamList,messages=messages)
 
+@app.route("/restart")
+def restart():
+    global schedule
+    global teamList
+    schedule=None
+    teamList=[]
+    return redirect(url_for('index',messages="Restarted"))
+
 @app.route("/teamlist")
 def displayTeamlist():
     return render_template('teamlist.jinja2',teamlist=teamList)
@@ -84,6 +92,8 @@ def generateSchedule():
 @app.route('/playTour', methods=['GET', 'POST'])
 def playTour():
     global schedule
+    if not schedule:
+        return redirect(url_for('index', messages="No schedule!"))
     schedule.nextTour()
     return redirect(url_for('gamesResults'))
     
