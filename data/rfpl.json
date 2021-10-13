@@ -7,17 +7,17 @@
     {
         "name": "CSKA",
         "location": "Moscow",
-        "force": 70
+        "force": 82
     },
     {
         "name": "Spartak",
         "location": "Moscow",
-        "force": 80
+        "force": 89
     },
     {
         "name": "Lokomotiv",
         "location": "Moscow",
-        "force": 85
+        "force": 88
     },
     {
         "name": "Dinamo",
@@ -27,27 +27,27 @@
     {
         "name": "Khimki",
         "location": "Khimki",
-        "force": 60
+        "force": 78
     },
     {
         "name": "Krasnodar",
         "location": "Krasnodar",
-        "force": 70
+        "force": 74
     },
     {
         "name": "Sochi",
         "location": "Sochi",
-        "force": 72
+        "force": 85
     },
     {
         "name": "Rubin",
         "location": "Kazan",
-        "force": 65
+        "force": 85
     },
     {
         "name": "Akhmat",
         "location": "Groznyy",
-        "force": 59
+        "force": 73
     },
     {
         "name": "Nizhniy Novgorod",
@@ -62,21 +62,21 @@
     {
         "name": "Arsenal",
         "location": "Tula",
-        "force": 55
+        "force": 58
     },
     {
         "name": "Ufa",
         "location": "Ufa",
-        "force": 57
+        "force": 60
     },
     {
         "name": "Rostov",
         "location": "Rostov",
-        "force": 55
+        "force": 76
     },
     {
         "name": "Ural",
         "location": "Ekaterinburg",
-        "force": 55
+        "force": 68
     }
 ]

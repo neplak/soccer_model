@@ -1,5 +1,6 @@
 {% extends "base.jinja2" %}
 {% block content %}
+    {% from 'macros.jinja2' import game_title %}
     <ul class="list-group">
     {%if schedule.matchDays %}
         {% for matchday in schedule.matchDays %}
@@ -8,9 +9,7 @@
             {% for game in matchday %}
                 <li class="list-group-item-info">
                 <span class="badge text-white bg-dark rounded-pill">
-                {{schedule.teamList[game[0]].name}}({{schedule.teamList[game[0]].location}})
-                - 
-                {{schedule.teamList[game[1]].name}}({{schedule.teamList[game[1]].location}})
+                    {{game_title(schedule.teamList[game[0]],schedule.teamList[game[1]])}}
                 </span>
                 </li>
             {% endfor %}

@@ -1,21 +1,33 @@
 {% extends "base.jinja2" %}
 {% block content %}
-    <h1>{{heading}}</h1>
+    {% from 'macros.jinja2' import team_info %}
+
+    <div class="row">
+    <h1 class="col">{{heading}}</h1>
     
-    <h2>version: {{version}}</h2>
+    <h2 class="col">version: {{version}}</h2>
     
     {% if messages %}
 
-        <p><span class="badge bg-danger text-white">{{messages}}</span></p>
+        <div class="col"><span class="badge bg-danger text-white">{{messages}}</span></div>
     {% endif %}
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <ul>
+                {%if teamlist %}
+                    {% for team in teamlist %}
+                        <li>{{ team_info(team)}}</li>
+                    {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
     
-    <ul>
-    {%if teamlist %}
-        {% for team in teamlist %}
-            <li>{{team.name+' ' +'('+ team.location+' )'}}</li>
-        {% endfor %}
-    {% endif %}
-    </ul>
+    </div>
+    
+    </div>
 
     {# a comment #}
 {% endblock %}

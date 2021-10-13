@@ -1,24 +1,16 @@
 {% extends "base.jinja2" %}
 {% block content %}
+{% from 'macros.jinja2' import tour_info %}    
     
     
-    <ul class="list-group">
     {%if gameschedule.toursPlayed %}
+    <div class="row row-cols-4">
         {% for tour in gameschedule.toursPlayed %}
-            <li class="list-group-item"> Match day <span class="badge text-white bg-secondary rounded-pill">{{loop.index}}</span></li>
-            <br>
-            <ol class="list-group">
-            {% for game in tour %}
-                <li class="list-group-item">
-                    {{game.home.name}}({{game.home.location}})-{{game.away.name}}({{game.away.location}})
-                    <br>
-                    {{game.score[0]}}:{{game.score[1]}}({{game.score1[0]}}:{{game.score1[1]}})
-                </li>
-            {% endfor %}
-            </ol>
+            {{tour_info(loop.index,tour)}}
         {% endfor %}
+    </div>
     {% endif %}
-    </ul>
+
 
     {# a comment #}
 {% endblock %}

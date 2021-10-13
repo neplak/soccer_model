@@ -1,0 +1,51 @@
+{% macro team_info(team) %}
+    {{team.name}} ({{team.location}})
+{% endmacro %}
+
+
+{% macro game_title(home, away) %}
+        {{team_info(home)}}-{{team_info(away)}}
+{%- endmacro %}
+
+{% macro game_info(game) %}
+        {{game_title(game.home,game.away)}}
+        {% if game.completed %}
+            <br>
+            {{game.score[0]}}:{{game.score[1]}} ({{game.score1[0]}}:{{game.score1[1]}})
+        {% endif %}
+{%- endmacro %}
+
+{% macro tour_info(tour,gamelist) %}
+<div class="col-sm-2">
+  <button class="btn btn-primary" type="button" data-bs-toggle="modal" aria-labelledby="exampleModalLabel" data-bs-target="#collapse{{tour}}">
+    Match Day {{tour}}
+  </button>
+</div>
+
+<div class="modal fade" id="collapse{{tour}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Match Day {{tour}} </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                {% for game in gamelist %}
+         
+                    <div class="card card-body" style="width:30rem;">
+                        {{game_info(game)}}
+                    </div>
+        
+            {% endfor %}
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endmacro %}

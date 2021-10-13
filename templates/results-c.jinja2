@@ -1,0 +1,40 @@
+{% extends "base.jinja2" %}
+{% block content %}
+
+{% from 'macros.jinja2' import game_info %}
+
+<div id="carouselResults" class="carousel slide" data-bs-ride="carousel" style="margin-top: 50px;">
+  <div class="carousel-inner" style="height: 900px;">
+  {%if gameschedule.toursPlayed %}
+    {% for tour in gameschedule.toursPlayed %}
+        {% if loop.index == 1 %}
+            <div class="carousel-item active">
+        {% else %}
+            <div class="carousel-item">
+        {% endif%}
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h2 class="card-title">Match Day {{loop.index}}</h2>
+            <ol class="list-group">
+            {% for game in tour %}
+                <li class="list-group-item">
+                    {{game_info(game)}}
+                </li>
+            {% endfor %}
+            </ol>
+        </div>
+        </div>
+    {% endfor %}
+{% endif %}
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselResults"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselResults"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+    {# a comment #}
+{% endblock %}

@@ -1,6 +1,7 @@
 {% extends "base.jinja2" %}
 {% block content %}
-    
+
+{% from 'macros.jinja2' import game_info %}    
 <div class="accordion" id="accordionExample">
 {%if gameschedule.toursPlayed %}
     {% for tour in gameschedule.toursPlayed %}
@@ -15,9 +16,7 @@
             <ol class="list-group">
             {% for game in tour %}
                 <li class="list-group-item">
-                    {{game.home.name}}({{game.home.location}})-{{game.away.name}}({{game.away.location}})
-                    <br>
-                    {{game.score[0]}}:{{game.score[1]}}({{game.score1[0]}}:{{game.score1[1]}})
+                    {{game_info(game)}}
                 </li>
             {% endfor %}
             </ol>
