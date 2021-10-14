@@ -8,16 +8,27 @@
     <title>Soccer model</title>
   </head>
   <body>
-  <nav class="nav">
+  <navbar class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
   <a class="nav-link" href="{{url_for("index")}}">Home</a>
   <a class="nav-link active" aria-current="page" href={{url_for("displayTeamlist")}}>Team list</a>
   <a class="nav-link" href="{{url_for("teamCreate")}}">Add Team</a>
   <a class="nav-link" href="{{url_for("generateSchedule")}}">Schedule</a>
   <a class="nav-link" href="{{url_for("playTour",view="c")}}">Tour</a>
-  <a class="nav-link" href="{{url_for("tournamentTable")}}">Tournament Table</a>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Tournament Table
+    </button>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="{{url_for("tournamentTable",count='normal')}}">Normal</a></li>
+    <li><a class="dropdown-item" href="{{url_for("tournamentTable",count='p111')}}">One point</a></li>
+  </ul>
+  </div>
   <a class="nav-link" href="{{url_for("restart")}}">Restart</a>
-</nav>
-<div class="container">
+  </div>
+</navbar>
+<div class="container" style="padding-top: 10%;">
   {% block content %}
 
   {% endblock %}

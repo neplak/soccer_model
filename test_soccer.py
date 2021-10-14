@@ -120,7 +120,12 @@ def tournamentTable():
         return redirect(url_for('index', messages="Not created schedule yet"))
     if not schedule.toursPlayed:
         return redirect(url_for('index', messages="None games played yet"))
-    return render_template('TournamentTable.jinja2', ttable=schedule.currentTable(pfg111))
+    count=request.args.get('count')
+    if count=='normal':
+        countFunc=pfg
+    else:
+        countFunc=pfg111
+    return render_template('TournamentTable.jinja2', ttable=schedule.currentTable(countFunc))
 
 if __name__ == "__main__":
     app.run(debug=True,port=8080)

@@ -152,7 +152,7 @@ class Game:
         sumForce=homeBonus+self.home.force+self.away.force
         self.goals=[]
         for minute in range(1,90):
-            rm=rnd.randint(1,100)
+            rm=rnd.randint(0,100)
             if rm >96:
                 rt=rnd.randint(0,sumForce)
                 if rt<self.away.force:
